@@ -1,0 +1,12 @@
+- echo checking aws version
+- aws --version
+- echo running the command to get EC2 compute Optimizer recommendations
+- aws compute-optimizer export-ec2-instance-recommendations --s3-destination-config bucket=testbucket/accountnumber-accountname/region/ec
+- echo running the command to get EBS compute Optimizer recommendations  tb/1234/ebs/
+- export-ebs-volume-recommendations --s3-destination-config bucket=testbucket
+- echo running the command to get Lambda compute Optimizer recommendations
+- export-lambda-function-recommendations --s3-destination-config bucket=testbucket
+- echo running the command to get ECS compute Optimizer recommendations
+- aws compute-optimizer export-ecs-service-recommendations –s3-destination-config bucket=testbucket
+- echo running the command to get EC2 ASG compute Optimizer recommendations
+-export-auto-scaling-group-recommendations --s3-destination-config bucket=testbucket
