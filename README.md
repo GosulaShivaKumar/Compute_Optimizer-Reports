@@ -50,3 +50,4 @@ The script includes functionality to handle different states of the job:
 
 The script captures and logs exceptions, especially focusing on service limit exceptions, allowing for better manageability in scenarios where multiple exports are initiated simultaneously.
 
+## View Event Bridge and Compute Optimizer.docx for more detailed documentation
