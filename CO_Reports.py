@@ -1,3 +1,7 @@
+#Compute Optimser report generation using LAMBDA Functions in AWS
+#Written By Shiva Kumar Gosula
+
+
 import boto3
 import time
 from datetime import date
